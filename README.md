@@ -5,7 +5,7 @@ You can just execute the following commands one by one.
 ```
 sudo apt-get install libarmadillo-dev
 git clone https://github.com/LoriIp/fypDrone.git
-cd ego-planner-swarm
+cd fypDrone
 catkin_make -j1
 source devel/setup.bash
 roslaunch ego_planner simple_run.launch
